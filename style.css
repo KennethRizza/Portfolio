@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    background: #6495ED;
+    margin-top: 50px;
+}
+
+header {
+    background: #1C1C1C;
+    grid-column: 1/2;
+    margin:25px 0 0 100px;
+    color: #ffffff;
+    border-radius: 15px 15px 15px 15px;
+    border: 8px solid #121416;
+
+
+}
+
+.imagen-foto {
+    margin-top: 35px;
+    text-align: center;
+    
+}
+
+.img-foto {
+    border-radius: 50%;
+    border: 8px solid #121416;
+    width: 240px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.linkedin-git {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 15px;
+}
+
+.text-contato {
+    text-align: center;
+    margin-top: 55px;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 10px;
+    margin-bottom: 30px;
+}
+
+.button-curriculo {
+    width: 200px;
+    height: 40px;
+    border-radius: 22px;
+    background-color: #4682B4;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    font-size: 18px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.button-curriculo:hover {
+    opacity: 0.8;
+}
+
+.button-curriculo:active {
+    opacity: 0.5;
+}
+
+main {
+    background: #1C1C1C;
+    grid-column: 2/4;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 100px;
+    color: #ffffff;
+    border-radius: 15px 15px 15px 15px;
+    border: 8px solid #121416;
+}
+
+.paragrafo-sobre {
+    margin-left: 28px;
+    margin-top: 40px;
+}
+
+.paragrafo-soft {
+    margin-left: 50px;
+    margin-top: 85px;
+}
+
+.soft-skiil {
+    margin-left: 140px;
+    margin-top: 54px;
+}
+
+.paragrafo-hard {
+    margin-left: 46px;
+    margin-top: 70px;
+}
+
+.hard-skiil {
+    display: flex;
+    margin-top: 130px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.icon-html:hover {
+    transform: scale(1.1);
+}
+
+.icon-css:hover {
+    transform: scale(1.1);
+}
+
+.icon-javascript:hover {
+    transform: scale(1.1);
+}
+
+.icon-react:hover {
+    transform: scale(1.1);
+}
+
+.icon-git:hover {
+    transform: scale(1.1);
+}
+
+.icon-github:hover {
+    transform: scale(1.1);
+}
+
+aside {
+    background: #1C1C1C;
+    grid-column: 1/5;
+    margin-left: 100px;
+    margin-right: 131px;
+    border-radius: 15px 15px 15px 15px;
+    padding: 65px;
+    color: #ffffff;
+    border: 8px solid #121416;
+}
+
+.img-conversor {
+    text-align: center;
+}
+.imagen-conversor{
+    border-radius: 15px 15px 15px 15px;
+    border: 8px solid #4682b4;
+}
+
+.text-conversor {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.link-projeto-conversor {
+    width: 200px;
+    height: 40px;
+    border-radius: 22px;
+    background-color: #4682B4;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    font-size: 18px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.link-projeto-conversor:hover {
+    opacity: 0.8;
+}
+
+.link-projeto-conversor:active {
+    opacity: 0.5;
+}
+
+.name-project-conversor {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+h3 {
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 36px;
+}
+
+.img-insta {
+    text-align: center;
+}
+.imagem-instagram{
+    border-radius: 15px 15px 15px 15px;
+    border: 8px solid #4682b4;
+}
+
+.text-instagram {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.link-projeto-inst {
+    width: 200px;
+    height: 40px;
+    border-radius: 22px;
+    background-color: #4682B4;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    font-size: 18px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.link-projeto-inst:hover {
+    opacity: 0.8;
+}
+
+.link-projeto-inst:active {
+    opacity: 0.5;
+}
+
+.name-project-insta {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 20px;
+    margin-top: 125px
+}
+
+.img-tarefas {
+    text-align: center;
+}
+.imagen-tarefas{
+    border-radius: 15px 15px 15px 15px;
+    border: 8px solid #4682b4;
+}
+
+.text-tarefas {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.link-projeto-tarefas {
+    width: 200px;
+    height: 40px;
+    border-radius: 22px;
+    background-color: #4682B4;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    font-size: 18px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.link-projeto-tarefas:hover {
+    opacity: 0.8;
+}
+
+.link-projeto-tarefas:active {
+    opacity: 0.5;
+}
+
+.name-project-tarefas {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 20px;
+    margin-top: 125px
+}
+
+.img-calculadora {
+    text-align: center;
+}
+.imagen-calculadora{
+    border-radius: 15px 15px 15px 15px;
+    border: 8px solid #4682b4;
+}
+
+.text-calculadora {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.link-projeto-calculadora {
+    width: 200px;
+    height: 40px;
+    border-radius: 22px;
+    background-color: #4682B4;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    font-size: 18px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.name-projeto-calculadora {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 20px;
+    margin-top: 125px
+}
+
+.link-projeto-calculadora:hover {
+    opacity: 0.8;
+}
+
+.link-projeto-calculadora:active {
+    opacity: 0.5;
+}
+
+
+@media screen and (max-width:1200px) {
+    header {
+        margin-left: 10px;
+        width: 396px;
+        height: 110vh;
+    }
+
+    main {
+        width: 400px;
+        margin-left: -428px;
+        margin-top: 1095px;
+
+    }
+
+    aside {
+        width: 407px;
+        margin-left: 3px;
+    }
+
+    .hard-skiil {
+        margin-top: 35px;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 25px;
+        padding: 8px;
+        gap: 23px;
+        justify-content: space-evenly;
+
+    }
+
+    .imagen-conversor {
+        width: 230px;
+        height: 186px;
+        border-radius: 15px 15px 15px 15px;
+        border: 8px solid #4682b4;
+    }
+
+    .imagem-instagram {
+        width: 230px;
+        height: 186px;
+        border-radius: 15px 15px 15px 15px;
+        border: 8px solid #4682b4;
+    }
+
+    .imagen-tarefas {
+        width: 230px;
+        height: 186px;
+        border-radius: 15px 15px 15px 15px;
+        border: 8px solid #4682b4;
+    }
+
+    .imagen-calculadora {
+        width: 230px;
+        height: 186px;
+        border-radius: 15px 15px 15px 15px;
+        border: 8px solid #4682b4;
+    }
+}
+
+@media screen and (max-width:375px) {
+    header {
+        margin-left: 10px;
+        width: 396px;
+        height: 146vh;
+    }
+}
