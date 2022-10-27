@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-
+    
+    
 }
 
 body {
@@ -12,30 +13,24 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 30px;
-    background: #6495ED;
     margin-top: 50px;
+    background-image: url(https://assets-global.website-files.com/5d0b2f88641a5824608cbb94/610347532d874f4bc1e2f762_newsletter%20overlay.png);
 }
 
 header {
-    background: #1C1C1C;
     grid-column: 1/2;
     margin:25px 0 0 100px;
     color: #ffffff;
     border-radius: 15px 15px 15px 15px;
-    border: 8px solid #121416;
-
-
 }
 
 .imagen-foto {
     margin-top: 20px;
     text-align: center;
-    
 }
 
 .img-foto {
     border-radius: 50%;
-    border: 8px solid #121416;
     width: 240px;
 }
 
@@ -87,14 +82,12 @@ h2 {
 }
 
 main {
-    background: #1C1C1C;
     grid-column: 2/4;
     margin-top: 25px;
     margin-left: 25px;
     margin-right: 100px;
     color: #ffffff;
     border-radius: 15px 15px 15px 15px;
-    border: 8px solid #121416;
 }
 
 .paragrafo-sobre {
@@ -127,36 +120,29 @@ main {
 .icon-html:hover {
     transform: scale(1.1);
 }
-
 .icon-css:hover {
     transform: scale(1.1);
 }
-
 .icon-javascript:hover {
     transform: scale(1.1);
 }
-
 .icon-react:hover {
     transform: scale(1.1);
 }
-
 .icon-git:hover {
     transform: scale(1.1);
 }
-
 .icon-github:hover {
     transform: scale(1.1);
 }
 
 aside {
-    background: #1C1C1C;
     grid-column: 1/5;
     margin-left: 100px;
     margin-right: 131px;
     border-radius: 15px 15px 15px 15px;
     padding: 65px;
     color: #ffffff;
-    border: 8px solid #121416;
 }
 
 .img-conversor {
